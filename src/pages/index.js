@@ -71,7 +71,7 @@ const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=de
 
 const IndexPage = () => (
   <Layout>
-  <h1>¡Bienvenido a mi sitio de Desarrollo Web!</h1>
+  <h1>¡Bienvenido a mi sitio de super Desarrollo Web!</h1>
   <StaticImage
       src="../images/desarrollo.png"
       alt="Desarrollo Web"

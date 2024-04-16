@@ -15,17 +15,19 @@ const Layout = ({ children }) => (
   <div style={{ margin: `3rem auto`, maxWidth: 650, padding: `0 1rem` }}>
     <header style={{ marginBottom: `1.5rem` }}>
       <h3 style={{ display: `inline` }}>Apaños.com</h3>
-      <ul style={{ listStyle: `none`, float: `right` }}>
-        <li style={{ display: `inline`, marginRight: `1rem` }}>
-          <Link to="/">Inicio</Link>
-        </li>
-        <li style={{ display: `inline`, marginRight: `1rem` }}>
-          <Link to="/servicios">Servicios</Link>
-        </li>
-        <li style={{ display: `inline` }}>
-          <Link to="/contacto">Contacto</Link>
-        </li>
-      </ul>
+      <nav>
+        <ul style={{ listStyle: `none`, float: `right` }}>
+          <li style={{ display: `inline`, marginRight: `1rem` }}>
+            <Link to="/">Inicio</Link>
+          </li>
+          <li style={{ display: `inline`, marginRight: `1rem` }}>
+            <Link to="/servicios">Servicios</Link>
+          </li>
+          <li style={{ display: `inline` }}>
+            <Link to="/contacto">Contacto</Link>
+          </li>
+        </ul>
+      </nav>
     </header>
     {children}
     <footer style={{ marginTop: `2rem` }}>
